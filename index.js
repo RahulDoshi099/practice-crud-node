@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 //coonect mongoose
 mongoose
   .connect(
-    "mongodb+srv://rahuldoshi:adminrahul@cluster0.yfbf0.mongodb.net/practice-crud-node?retryWrites=true&w=majority",
+    "mongodb+srv://rahuldoshi:admin@cluster0.yfbf0.mongodb.net/practice-crud-node?retryWrites=true&w=majority",
   )
   .then(() => {
     console.log("Database connected successfully!!!");
